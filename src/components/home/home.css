@@ -421,10 +421,10 @@ padding-bottom: 50px;
     
         .provideing-simple-carousel{
 
+
             height: 450px;
             width: 95%;
             margin: auto;
-            /* background-color: red; */
             /* border: 1px solid red; */
             padding-left: 5px;
             padding-top: 50px;
@@ -435,13 +435,15 @@ padding-bottom: 50px;
             
             
             .prov0d0ng-carousel-bg{
+                
                 height: 200px;
-                width: 90%;
+                width: 100%;
                 border-radius: 20px;
 }
                    .carousel{
+
                 height: 300px;
-                width: 100%;
+                width: 92%;
     
             }
         
