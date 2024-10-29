@@ -1,0 +1,277 @@
+nav{
+
+
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.nav-logo{
+width: 20%;
+height: 100%;
+text-align: center;
+/* background-color: black; */
+}
+
+.logo{
+
+    width: 100px;
+    /* height: 100px; */
+
+}
+
+
+.nav-links{
+
+width: 80%;
+height: 100%;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+
+.Link{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--green);
+    padding: 0px;
+    transition: all .3s;
+    position: relative;
+    margin-right: 7%
+}
+
+
+.Link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color:var(--green);
+    transition: width 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.Link:hover::after {
+    width: 100%;
+}
+
+/* Small Nav Bar */
+
+.sml-nav{
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--green);
+  transition: all .3s;
+  z-index: 3;
+flex-direction: column;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 50px 10px  ;
+  font-size: 30px;
+}
+
+
+
+
+
+.sml-nav-clz{
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: -200%;
+  background-color: red;
+  transition: all .2s;
+  z-index: 3;
+
+}
+
+.Link-sml{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.Link-sml:hover{
+  opacity: .7;
+}
+
+
+
+.small-link-div{
+  color: white;
+  margin-top: 20px;
+}
+.small-link-div i{
+  font-size: 20px;
+}
+
+
+@media (min-width: 0px) and (max-width:550px) {
+
+
+
+
+    .nav-links{
+        display: none;
+    }
+
+.sml-links{
+    width: 80%;
+    text-align: right;
+    display: block;
+    font-size: 30px;
+    color: var(--green);
+    padding-right: 30px;
+    
+}
+.sml-links div{
+
+  padding: 5px;
+ 
+  
+}
+
+
+
+.nav-logo{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    }
+    
+    .logo{
+        width: 90px;
+        /* height: 100px; */
+    
+    }
+    
+
+  }
+
+
+
+
+
+
+@media (min-width: 550px) and (max-width:710px) {
+
+
+
+    /* Your styles for extra small devices */
+
+.Link{
+font-size: 25px;
+margin-right: 3%
+
+}  
+  
+.sml-links{
+
+    display: none;
+}
+.sml-nav{
+  display: none;
+}
+
+
+  }
+
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 611px) and (max-width: 767.98px) {
+
+
+
+    /* Your styles for small devices */
+  
+    .sml-nav{
+      display: none;
+    }
+  .sml-links{
+
+    display: none;
+}
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /* Your styles for medium devices */
+  
+    .sml-links{
+
+        display: none;
+    }
+
+    .sml-nav{
+      display: none;
+    }
+    }
+  
+    
+  
+  
+  
+    
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+.sml-nav{
+  display: none;
+}
+    /* Your styles for large devices */
+  
+  .sml-links{
+
+    display: none;
+}
+    
+    }
+   
+  
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+    /* Your styles for extra large devices */
+    .sml-nav{
+      display: none;
+    }
+    .sml-links{
+
+        display: none;
+    }    
+
+  }
+  
+  /* Ultra large devices (extra large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+
+.sml-links{
+    display: none;
+}
+
+.sml-nav{
+  display: none;
+}
+
+    /* Your styles for ultra large devices */
+  }

@@ -1,0 +1,171 @@
+/* About PAge */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Kavivanar&family=Suranna&display=swap');
+
+
+.about-body{
+  height: 100vh;
+  width: 100%;
+}
+
+.about-hero{
+
+  height: 80%;
+  width: 100%;
+  background-position:  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-heading-one{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+text-align: center;
+flex-direction: column;
+color: white;
+font-size:20px;
+/* font-family: ; */
+padding-top: 50px;
+}
+
+.hero-heading-one p{
+  font-size: 25px;
+  width: 80%;
+  margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Section  */
+
+
+.about-sec{
+
+
+    height:auto;
+    width: 100%;
+    min-height: 250px;
+    background-color:var(--green);
+    color: white;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.about-sec h1{
+  font-family: "Kavivanar", cursive;
+
+
+    font-size: 50px;
+}
+
+
+.about-sec p{
+
+
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.881);
+    z-index: 2;
+    position: relative;
+}
+.about-bg{
+    height: 200px;
+    width: 100%;
+    background-position:  100%;
+    background-size: contain;
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width:550px) {
+    .about-sec p{
+        width: 95%;
+        font-size: 20px;
+    }
+      
+
+.about-sec h1{
+    font-size: 30px;
+}
+
+    .about-bg{
+        height: 150px;
+    }
+
+
+  }
+
+
+@media (min-width: 400px) and (max-width:610px) {
+    /* Your styles for extra small devices */
+.about-sec p{
+    width: 95%;
+}
+  
+  
+  }
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 611px) and (max-width: 767.98px) {
+    /* Your styles for small devices */
+  
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles for medium devices */
+  
+    }
+  
+    
+  
+
+    
+  
+    
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your styles for large devices */
+  
+  
+    
+    }
+   
+  
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Your styles for extra large devices */
+  }
+  
+  /* Ultra large devices (extra large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* Your styles for ultra large devices */
+  }

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Suranna&display=swap');
+
+*{
+ margin:0px; 
+ padding:0px;
+ box-sizing: border-box;
+ outline: none;
+}
+
+:root{
+    --green : #20B2AA;
+    --ivory : ivory;
+    --white : white;
+}

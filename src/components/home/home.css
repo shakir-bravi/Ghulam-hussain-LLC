@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Kavivanar&family=Suranna&display=swap');
+
+
+.home-landing{
+
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+/* Hero Section Design */
+
+.hero-section{
+    
+    height: 85%;
+    width: 100%;
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.heading-1{
+
+
+    height: 20%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.hero-custom-logo{
+
+    text-align: center;
+    height: 30%;
+    color: white;
+    font-size: 50px;
+    color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-custom-logo div{
+    background: rgba(255, 255, 255, 0.283);
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 3px solid var(--green);
+    
+}
+
+.heading-2{
+
+    height: 35%;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.hire-now{
+text-align: center;
+}
+
+.hire-now .hire-link{
+    text-decoration: none;
+
+    font-size: 40px;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.hire-now .hire-link:hover{
+    opacity: .7;
+}
+
+
+
+
+
+/* PRovideing a Premimum */
+
+
+.Providing-Premium{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Providing-Premium h1{
+    font-size: 40px;
+    font-family: "Kavivanar", cursive;
+    color: var(--green);
+}
+
+
+.Providing-Premium h2{
+    font-size: 30px;
+    /* font-family: "Kavivanar", cursive; */
+    color: #20b2aba7;
+}
+
+
+
+.provideing-simple-carousel{
+height: 450px;
+width: 60%;
+/* background-color: red; */
+/* border: 1px solid red; */
+padding-left: 50px;
+padding-top: 50px;
+position: relative;
+}
+
+
+.prov0d0ng-carousel-bg{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(32, 178, 171, 0.3);
+    border-radius: 20px;
+}
+
+
+.crousel-div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.carousel{
+    height: 300px;
+    width: 600px;
+    /* background-color: red; */
+    border-radius: 20px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all .3s ;
+}
+
+
+.se-al-serv{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: var(--green);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.se-al-serv:hover{
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Team Component */
+
+
+.team-body{
+    margin-top: 100px;
+height: auto;    
+width: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+
+.team-body h1{
+  
+        font-size: 40px;
+        font-family: "Kavivanar", cursive;
+        color:white;
+        width: 80%;
+        
+        margin: auto;
+
+    }
+    
+
+    .team-body img{
+        height: 400px;
+        width: 70%;
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+
+
+
+
+@media (min-width: 0px) and (max-width:350px) {
+
+
+.logo{
+    width: 60px;
+}
+    
+    .heading-1{
+        
+    
+    /* background-color: red; */
+        height: 20%;
+    
+        font-size: 17px;
+     
+    }
+    
+    .hero-custom-logo{
+    
+        height: 30%;
+        /* background-color: red; */
+        font-size: 35px;
+    
+    }
+    
+    .hero-custom-logo div{
+        height: 100px;
+        width: 100px;
+        border: 2px solid var(--green);
+        
+    }
+    
+    .heading-2{
+    
+        /* background-color: red; */
+        height: 35%;
+        font-size: 18px;
+    
+    }
+    
+    .hire-now{
+        text-align: center;
+        /* background-color: red; */
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        }
+       
+        .hire-now button{
+            font-size: 25px;
+    
+        }
+
+        .provideing-simple-carousel{
+            height: 450px;
+            width: 95%;
+            margin: auto;
+            /* background-color: red; */
+            /* border: 1px solid red; */
+            padding-left: 5px;
+            padding-top: 50px;
+            position: relative;
+            
+            }            
+            
+            .prov0d0ng-carousel-bg{
+                height: 200px;
+                width: 90%;
+                background-color: rgba(32, 178, 171, 0.3);
+                border-radius: 20px;
+            }
+            
+            .carousel{
+
+                height: 300px;
+                width: 90%;
+    
+            }
+            
+    .Providing-Premium h1{
+        font-size: 30px;
+    
+    }
+    
+    .Providing-Premium h2{
+        font-size: 20px;
+    }
+           
+.se-al-serv{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+
+.team-body h1{
+    font-size: 20px;
+    width: 80%;
+}
+
+
+.team-body img{
+    height: 200px;
+    width: 90%;
+}
+
+
+        
+        
+    
+      }
+
+@media (min-width: 351px) and (max-width:550px) {
+
+
+
+
+
+
+.heading-1{
+    
+
+/* background-color: red; */
+    height: 20%;
+
+    font-size: 20px;
+ 
+}
+
+.hero-custom-logo{
+
+    height: 30%;
+    /* background-color: red; */
+    font-size: 40px;
+
+}
+
+.hero-custom-logo div{
+    height: 110px;
+    width: 110px;
+    border: 2px solid var(--green);
+    
+}
+
+
+.heading-2{
+
+    /* background-color: red; */
+    height: 35%;
+
+    font-size: 28px;
+
+}
+
+
+.hire-now{
+    text-align: center;
+    /* background-color: red; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    }
+
+    
+    .hire-now button{
+        font-size: 30px;
+
+    }
+    
+        .provideing-simple-carousel{
+
+            height: 450px;
+            width: 95%;
+            margin: auto;
+            /* background-color: red; */
+            /* border: 1px solid red; */
+            padding-left: 5px;
+            padding-top: 50px;
+            position: relative;
+            
+            }
+
+            
+            
+            .prov0d0ng-carousel-bg{
+                height: 200px;
+                width: 90%;
+                border-radius: 20px;
+}
+                   .carousel{
+                height: 300px;
+                width: 100%;
+    
+            }
+        
+        
+
+.Providing-Premium h1{
+    font-size: 30px;
+
+}
+
+
+.Providing-Premium h2{
+    font-size: 20px;
+}
+
+.se-al-serv{
+    font-size: 23px;
+    padding: 5px 15px;
+}
+
+
+        
+.team-body{
+    margin-top: 100px;
+height: auto;    
+width: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 30px;
+padding-bottom: 50px;
+background-color: var(--green);
+}
+
+
+.team-body h1{
+        font-size: 25px;
+        width: 80%;
+    }
+    
+
+    .team-body img{
+        height: 300px;
+        width: 90%;
+    }
+
+        
+
+
+
+
+
+
+
+
+  }
+
+@media (min-width: 551px) and (max-width:900px) {
+
+
+    /* Your styles for extra small devices */
+
+    
+    
+    .provideing-simple-carousel{
+
+        height: 450px;
+        width: 95%;
+        margin: auto;
+        /* background-color: red; */
+        /* border: 1px solid red; */
+        padding-left: 5px;
+        padding-top: 50px;
+        position: relative;
+        
+        }
+
+        
+        
+        .prov0d0ng-carousel-bg{
+            height: 200px;
+            width: 90%;
+            background-color: rgba(32, 178, 171, 0.3);
+            border-radius: 20px;
+        }
+        
+
+        
+        
+        .carousel{
+
+            height: 300px;
+            width: 90%;
+
+        }
+    
+
+  .team-body h1{
+        font-size:30px;
+        width: 80%;
+    }
+    
+
+    .team-body img{
+        height: 300px;
+        width: 80%;
+    }
+
+  
+  }
+    
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 611px) and (max-width: 767.98px) {
+    /* Your styles for small devices */
+  
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles for medium devices */
+  
+    }
+  
+    
+  
+  
+  
+    
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your styles for large devices */
+  
+  
+    
+    }
+   
+  
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Your styles for extra large devices */
+  }
+  
+  /* Ultra large devices (extra large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* Your styles for ultra large devices */
+  }
+

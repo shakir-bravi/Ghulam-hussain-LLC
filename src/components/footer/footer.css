@@ -1,0 +1,282 @@
+.footer-body{
+    
+
+/* height: auto; */
+width: 100%;
+background-color: black;
+background-position: center;
+background-size: contain;
+background-repeat: repeat;
+padding-bottom: 20px;
+
+}
+
+.footer-gh{
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: var(--green);
+}
+
+
+.footer-gh img{
+
+    height: 150px;
+    width: 150px;
+}
+
+.footer-gh h2 {
+    font-size: 45px;
+}
+.footer-body h1{
+    color: white;
+
+}
+
+.footer-body h2{
+
+    color: var(--green);
+}
+
+.footer-icons-div{
+
+
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: red; */
+
+}
+
+.footer-icons-div .footer-Link{height: 60px;
+
+    width: 60px;
+    background-color: white;
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    text-decoration: none;
+
+}
+
+.footer-icons-div .footer-Link i{
+    font-size: 30px;
+    color: var(--green);
+}
+
+.footer-Link:hover{
+
+
+    background-color: var(--green);
+    color: white;
+    border-radius: 0%;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
+
+
+.footer-Link:hover  .fa-brands{
+
+    color: white;
+}
+
+
+.footer-date{
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+.footer-links-div{
+
+
+
+
+width: 60%;
+height: 200px;
+/* background-color: red; */
+margin: auto;
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.footer-links-div div{
+
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.footer-links-div div p{
+    
+    color: #ffffffbd;
+}
+
+
+.footer-links-div div  .footer-links{
+    color: var(--green);
+}
+
+.footer-links-div div  .footer-links:hover{
+    opacity: .7;
+}
+
+
+
+.footer-copyright-div{
+ color: rgba(255, 255, 255, 0.685);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width:500px) {
+    .footer-gh img{
+
+        height: 80px;
+        width: 80px;
+    }
+    
+    .footer-gh h2 {
+        font-size: 30px;
+    }
+
+
+    .footer-icons-div{
+    
+
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        /* background-color: red; */
+    
+    }
+    
+    .footer-icons-div .footer-Link{
+    
+        height: 40px;
+        width: 40px;
+
+    
+    }
+    
+    .footer-icons-div .footer-Link i{
+        font-size: 20px;
+    }
+    
+    
+.footer-date{
+    font-size: 20px;
+}
+
+
+.footer-links-div{
+    
+
+
+
+    width: 80%;
+
+    
+    }
+    
+    .footer-links-div div{
+    
+        width: 40%;
+
+        font-size: 20px;
+    }
+
+
+
+    .footer-copyright-div{
+        color: rgba(255, 255, 255, 0.685);   
+       }
+       
+
+  }
+
+
+@media (min-width: 400px) and (max-width:610px) {
+    /* Your styles for extra small devices */
+  
+  .home-body{
+    background-color: red;
+  }
+  
+  
+  
+  }
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 611px) and (max-width: 767.98px) {
+    /* Your styles for small devices */
+  
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles for medium devices */
+  
+    }
+  
+    
+  
+  
+  
+    
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your styles for large devices */
+  
+  
+    
+    }
+   
+  
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Your styles for extra large devices */
+  }
+  
+  /* Ultra large devices (extra large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* Your styles for ultra large devices */
+  }
+
