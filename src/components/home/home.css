@@ -69,7 +69,8 @@
 .heading-2{
 
     height: 35%;
-    color: white;
+    /* color: white; */
+    color: red;
     text-align: center;
     font-size: 33px;
     display: flex;
@@ -78,10 +79,11 @@
 }
 
 .hire-now{
+
 text-align: center;
 /* background-color: red; */
 /* height: 35%; */
-margin-top: 25px;
+/* margin-top: 25px; */
 }
 
 
@@ -247,6 +249,7 @@ padding-bottom: 50px;
 @media (min-width: 0px) and (max-width:350px) {
 
 
+
 .logo{
     width: 60px;
 }
@@ -293,7 +296,8 @@ padding-bottom: 50px;
         align-items: end;
         }
        
-        .hire-now button{
+        .hire-now .hire-link{
+
             font-size: 25px;
     
         }
@@ -363,6 +367,7 @@ padding-bottom: 50px;
 
 
 
+
 .heading-1{
     
 
@@ -409,7 +414,7 @@ padding-bottom: 50px;
     }
 
     
-    .hire-now button{
+    .hire-now .hire-link{
         font-size: 30px;
 
     }
@@ -495,6 +500,7 @@ background-color: var(--green);
   }
 
 @media (min-width: 551px) and (max-width:900px) {
+    
 
 
     /* Your styles for extra small devices */
