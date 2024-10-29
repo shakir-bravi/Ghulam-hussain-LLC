@@ -71,7 +71,7 @@ export default function Nav() {
 
 const naLinks = [
   { id: 0, text: 'Home', to: '/', icon: <i className="fa-solid fa-house"></i> },
-  { id: 1, text: 'About', to: '/about', icon: <i className="fa-solid fa-building"></i> },
-  { id: 2, text: 'Services', to: '/services', icon: <i className="fa-solid fa-screwdriver-wrench"></i> },
-  { id: 3, text: 'Contact', to: '/contact', icon: <i className="fa-solid fa-phone"></i> },
+  { id: 1, text: 'About', to: '', icon: <i className="fa-solid fa-building"></i> },
+  { id: 2, text: 'Services', to: '', icon: <i className="fa-solid fa-screwdriver-wrench"></i> },
+  { id: 3, text: 'Contact', to: '', icon: <i className="fa-solid fa-phone"></i> },
 ];
