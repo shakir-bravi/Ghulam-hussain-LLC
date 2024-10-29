@@ -68,9 +68,9 @@
 
 .heading-2{
 
+
     height: 35%;
-    /* color: white; */
-    color: red;
+    color: white;
     text-align: center;
     font-size: 33px;
     display: flex;
@@ -500,7 +500,7 @@ background-color: var(--green);
   }
 
 @media (min-width: 551px) and (max-width:900px) {
-    
+
 
 
     /* Your styles for extra small devices */
